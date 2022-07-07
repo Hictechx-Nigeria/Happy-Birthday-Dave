@@ -6,7 +6,7 @@ h1{
   font-family: "Sacramento", cursive;
   font-size: 5.6rem;
   line-height: 2;
-  margin-left: 400px;
+
   }
 
   h2{
@@ -14,18 +14,17 @@ h1{
     font-family: "Sacramento", cursive;
     font-size: 3.6rem;
     line-height: 2;
-    margin-left: 400px;
-    }
+       }
 
     h3{
       color: white;
       font-family: "Sacramento", cursive;
       font-size: 3rem;
       line-height: 2;
-      margin-left: 400px;
+     
       
       }
   .video{
-    margin-left: 400px;
+   
     margin-top: 30px;
   }
