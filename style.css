@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 body{
   background-color: #0e2433;
 }
@@ -12,20 +30,21 @@ h1{
   h2{
     color: white;
     font-family: "Sacramento", cursive;
-    font-size: 3.6rem;
+    font-size: 2rem;
     line-height: 2;
-       }
+
+    }
 
     h3{
       color: white;
       font-family: "Sacramento", cursive;
-      font-size: 2rem;
+      font-size: 3rem;
       line-height: 2;
-      text-align: centre;
-     
-      
+
+
       }
   .video{
-   
+
     margin-top: 30px;
   }
+}
